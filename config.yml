@@ -1,0 +1,14 @@
+networks:
+  testnet:
+    local:
+      privatekey: "de283c9fa845ea8a0778f4656573681050730e0c474717038b02605ae7f0bcd5"
+      network: "http://localhost:8545"
+      deployedAddress: "b3bea7dfe1aeb7e23f2baf3065f945c686c8b5f3"
+      chainid: 88
+
+database:
+  host: "localhost"
+  port: "5432"
+  username: "postgres"
+  password: "123"
+  dbname: "postgres"
